@@ -5,15 +5,15 @@ CPPFLAGS         =
 FPPFLAGS         =
 LOCDIR           = src/ksp/ksp/tutorials/
 DIRS             = network
-EXAMPLESC        = ex1.c ex2.c ex3.c ex4.c ex5.c ex6.c ex7.c ex8.c ex9.c \
-                   ex10.c ex11.c ex12.c ex13.c ex15.c ex16.c ex18.c ex21.c ex23.c \
-                   ex25.c ex27.c ex28.c ex29.c ex32.c ex34.c \
-                   ex41.c ex42.c ex43.c \
-                   ex45.c ex46.c  ex49.c ex50.c ex51.c ex52.c ex53.c \
-                   ex54.c ex55.c ex56.c ex59.c ex62.c ex64.c ex65.c ex66.c \
-                   ex67.c ex68.c ex69.c ex70.c ex71.c ex72.c ex73.c ex74.c ex75.c ex76.c ex77.c ex78.c ex79.c ex100.c
-EXAMPLESF        = ex1f.F90 ex2f.F90 ex6f.F90 ex11f.F90 ex13f90.F90 ex14f.F90 ex15f.F90 ex22f.F90 ex44f.F90 ex45f.F90 \
-                   ex5f.F90 ex52f.F90 ex54f.F90 ex61f.F90 ex7f.F90 ex100f.F90 ex75f.F90 ex76f.F90 ex77f.F90
+EXAMPLESC        = ex001.c ex002.c ex003.c ex004.c ex005.c ex006.c ex007.c ex008.c ex009.c \
+                   ex010.c ex011.c ex012.c ex013.c ex015.c ex016.c ex018.c ex021.c ex023.c \
+                   ex025.c ex027.c ex028.c ex029.c ex032.c ex034.c \
+                   ex041.c ex042.c ex043.c \
+                   ex045.c ex046.c ex049.c ex050.c ex051.c ex052.c ex053.c \
+                   ex054.c ex055.c ex056.c ex059.c ex062.c ex064.c ex065.c ex066.c \
+                   ex067.c ex068.c ex069.c ex070.c ex071.c ex072.c ex073.c ex074.c ex075.c ex076.c ex077.c ex078.c ex079.c ex100.c
+EXAMPLESF        = ex001.F90 ex002.F90 ex006.F90 ex011.F90 ex013.F90 ex014.F90 ex015.F90 ex022.F90 ex044.F90 ex045.F90 \
+                   ex005.F90 ex052.F90 ex054.F90 ex061.F90 ex007.F90 ex100.F90 ex075.F90 ex076.F90 ex077.F90
 MANSEC           = KSP
 CLEANFILES       = rhs.vtk solution.vtk
 NP               = 1
